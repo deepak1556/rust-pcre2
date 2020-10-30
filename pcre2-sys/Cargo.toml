@@ -16,5 +16,5 @@ edition = "2018"
 libc = "0.2"
 
 [build-dependencies]
-cc = { version = "1", features = ["parallel"] }
+cc = { git = "https://github.com/alexcrichton/cc-rs", features = ["parallel"] }
 pkg-config = "0.3.13"
